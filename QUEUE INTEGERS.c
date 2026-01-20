@@ -12,7 +12,7 @@ if(q->rear==SIZE-1){
 }else{
     q->rear++;
     q->data[q->rear]=item;
-    if(q->front=-1){
+    if(q->front==-1){
         q->front=0;
      printf("\n Inserted %d into queue \n",item);
     }
@@ -74,6 +74,7 @@ for(;;){
   }
 return 0;
 }
+
 
 
 
